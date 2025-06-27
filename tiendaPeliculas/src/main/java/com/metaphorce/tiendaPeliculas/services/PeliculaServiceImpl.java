@@ -4,9 +4,10 @@ import com.metaphorce.tiendaPeliculas.entidades.Pelicula;
 import com.metaphorce.tiendaPeliculas.repositories.PeliculaRepository;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public class PeliculaServiceImpl implements PeliculaService {
 
     @Autowired
