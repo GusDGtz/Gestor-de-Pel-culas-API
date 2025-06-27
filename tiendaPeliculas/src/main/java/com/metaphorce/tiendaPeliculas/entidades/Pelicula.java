@@ -11,7 +11,7 @@ public class Pelicula {
     @GeneratedValue(strategy = GenerationType.IDENTITY) // Obtenemos la generación automática del id de MySQL
     private Integer id_pelicula;
     private String nombre_pelicula;
-    private boolean disponible;
+    private boolean disponible = true;
 
     // CONSTRUCTORES
     public Pelicula() {
